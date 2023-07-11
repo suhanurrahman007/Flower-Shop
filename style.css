@@ -164,3 +164,41 @@ html{
     margin-bottom: 0rem;
 }
 /* flower sign up css End here  */
+
+/* flower instagram des css Start here  */
+
+.flower-instagram{
+    padding: 4rem;
+    margin-left: 3.5rem;
+}
+
+.flower-instagram-title{
+    text-align: center;
+}
+.flower-instagram-title h2{
+    font-size: 25px;
+    padding: 10px;
+}
+.flower-instagram-title p{
+    font-size: 15px;
+    color: rgba(39, 39, 39, 0.60);
+    padding: 10px;
+    width: 50%;
+    margin-left: 17rem;
+}
+.first-instagram{
+    padding: .6rem;
+    text-align: center;
+
+}
+.flower-instagram-img{
+    width: 240px;
+    height: 280px;
+
+}
+
+
+.flower-instagram-body{
+    display: flex;
+}
+/* flower instagram des css End here  */
