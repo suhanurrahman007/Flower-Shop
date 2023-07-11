@@ -86,8 +86,7 @@ nav  li a:hover {
 }
 
 .btn{
-    width: 8rem;
-    padding: .8rem;
+    padding: .7rem;
     font-size: 15px;
     border-radius: 6px;
     background: #E55473;
@@ -157,6 +156,33 @@ nav  li a:hover {
     display: flex;
 }
 /*-----------Flower Feature Design End Here-------------*/
+
+/*-----------Help Line Design Start Here-------------*/
+.help-lines{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: 8rem;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);   
+    padding: 3.8rem; 
+    margin-bottom: 2rem;             
+}
+
+.help-line-img{
+    width: 88px;
+    height: 88px;
+    padding: 10px;
+}
+.help-line-img h4{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 18px;
+    padding: 10px;
+}
+
+/*-----------Help Line Design End Here-------------*/
+
 
 
 /*-----------Flower Sign Up Design Start Here-------------*/
@@ -280,7 +306,7 @@ nav  li a:hover {
 .deals-input{
     font-size: 15px;
     padding: 10px;
-    width: 500px;
+    width: 480px;
     margin-right: 4px;
     border-radius: 5px;
     border: none;
