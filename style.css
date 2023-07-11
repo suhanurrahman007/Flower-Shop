@@ -8,7 +8,59 @@ html{
     font-family: 'Open Sans', sans-serif;
 }
 
-/* flower des css start here  */
+
+/*-----------Header Design Start Here-------------*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background: #062222;
+    color: white;
+    align-items: center;
+    padding: 1rem .5rem;
+    /* position: sticky; */
+    top: 0;
+}
+
+.nav-logo{
+    margin-left: 5rem;
+    cursor: pointer;
+}
+
+.logo{
+    font-size: 3.5rem;
+    
+}
+
+nav  li{
+    display: inline;
+    margin-right: 1.5rem;
+    padding: .8rem;
+}
+nav  li:last-child{
+    margin-right: 0;
+}
+
+nav  li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 0.9rem;
+    color: white;
+    cursor: pointer;
+    transition: .4s;
+}
+
+nav  li a:hover {
+    text-decoration: underline;
+    font-size: 1rem;
+    color: #f0aab9;
+}
+
+/*-----------Header Design End Here-------------*/
+
+
+/*-----------Flower Des Design Start Here-------------*/
 .flower-des{
     display: flex;
     width: 100%;
@@ -57,10 +109,10 @@ html{
     height: 390px;
     width: 300px;
 }
-/* flower des css End here  */
+/*-----------Flower des Design End Here-------------*/
 
-/* flower feature des css Start here  */
 
+/*-----------Flower Feature Design Start Here-------------*/
 .flower-feature{
     padding: 5rem;
     margin-left: 5rem;
@@ -104,10 +156,10 @@ html{
 .flower-feature-body{
     display: flex;
 }
-/* flower feature des css End here  */
+/*-----------Flower Feature Design End Here-------------*/
 
 
-/* flower sign up css start here  */
+/*-----------Flower Sign Up Design Start Here-------------*/
 .flower-sign-up{
     display: flex;
     width: 100%;
@@ -150,10 +202,11 @@ html{
     margin-top: 5rem;
     margin-bottom: 0rem;
 }
-/* flower sign up css End here  */
+/*-----------Flower Sign Up Design End Here-------------*/
 
-/* flower instagram  css Start here  */
 
+
+/*-----------Flower Instagram Design Start Here-------------*/
 .flower-instagram{
     padding: 4rem;
     margin-left: 3.5rem;
@@ -188,10 +241,12 @@ html{
 .flower-instagram-body{
     display: flex;
 }
-/* flower instagram  css End here  */
+/*-----------Flower Instagram Design End Here-------------*/
 
 
-/* flower deals  css start here  */
+
+
+/*-----------Flower Deals Design Start Here-------------*/
 .deals{
     background-image: url("./Flower\ Asset/Rectangle 9.png");
     background-repeat:no-repeat;
@@ -231,10 +286,12 @@ html{
     border: none;
     margin-bottom: 4rem;
 }
-/* flower deals  css End here  */
+/*-----------Deals Design End Here-------------*/
 
 
-/* footer  css start here  */
+
+
+/*-----------Footer Design Start Here-------------*/
 .flower-footer{
     background-color: black;
     color: white;
@@ -264,6 +321,5 @@ html{
     color: rgba(255, 255, 255, 0.40);
     font-size: 14px;
 }
-/* footer  css End here  */
-
+/*-----------Footer Design End Here-------------*/
 
