@@ -1,0 +1,59 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* flower des css start here  */
+.flower-des{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.flower-des-title{
+    padding: 6rem;
+    flex-direction: column;
+    
+}
+
+.flower-des h2{
+    font-size: 50px;
+}
+
+.flower-des p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.flower-des-title button{
+    width: 8rem;
+    padding: .8rem;
+    font-size: 15px;
+    border-radius: 6px;
+    background: #E55473;
+    border: none;
+    color: white;
+}
+
+.flower-des-title button:hover{
+    background-color: rgba(156, 40, 40, 0.848);
+}
+
+.flower-des-img{
+    display: flex;
+    margin-top: 10px;
+    margin-right: 6rem;
+}
+
+.flower-des-img img{
+    height: 390px;
+    width: 300px;
+}
