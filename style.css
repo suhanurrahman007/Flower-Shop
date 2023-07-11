@@ -260,6 +260,12 @@ nav  li a:hover {
 .flower-instagram-img{
     width: 240px;
     height: 280px;
+    transition: 0.4s;
+}
+
+.flower-instagram-img:hover{
+    width: 245px;
+    height: 285px;
 
 }
 
