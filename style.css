@@ -57,3 +57,51 @@ html{
     height: 390px;
     width: 300px;
 }
+/* flower des css End here  */
+
+/* flower feature des css Start here  */
+
+.flower-feature{
+    padding: 5rem;
+    margin-left: 5rem;
+}
+
+.flower-feature-title{
+    text-align: center;
+}
+.flower-feature-title h2{
+    font-size: 35px;
+    padding: 10px;
+}
+.flower-feature-title p{
+    font-size: 19px;
+    color: rgba(39, 39, 39, 0.60);
+    padding: 10px;
+    width: 50%;
+    margin-left: 17rem;
+}
+.first-feature{
+    padding: .6rem;
+    text-align: center;
+
+}
+.flower-img{
+    width: 310px;
+    height: 380px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 30px 30px 0px 30px;
+
+}
+
+.flower-name{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 20px;
+    padding: 1rem;
+}
+
+.flower-feature-body{
+    display: flex;
+}
+/* flower feature des css End here  */
