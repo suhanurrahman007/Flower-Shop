@@ -33,7 +33,7 @@ html{
     margin-bottom: 10px;
 }
 
-.flower-des-title button{
+.btn{
     width: 8rem;
     padding: .8rem;
     font-size: 15px;
@@ -43,7 +43,7 @@ html{
     color: white;
 }
 
-.flower-des-title button:hover{
+.btn:hover{
     background-color: rgba(156, 40, 40, 0.848);
 }
 
@@ -136,19 +136,6 @@ html{
     margin-bottom: 10px;
 }
 
-.flower-sign-up-title button{
-    width: 8rem;
-    padding: .8rem;
-    font-size: 15px;
-    border-radius: 6px;
-    background: #E55473;
-    border: none;
-    color: white;
-}
-
-.flower-sign-up-title button:hover{
-    background-color: rgba(156, 40, 40, 0.848);
-}
 
 .flower-des-img{
     display: flex;
@@ -165,7 +152,7 @@ html{
 }
 /* flower sign up css End here  */
 
-/* flower instagram des css Start here  */
+/* flower instagram  css Start here  */
 
 .flower-instagram{
     padding: 4rem;
@@ -201,4 +188,82 @@ html{
 .flower-instagram-body{
     display: flex;
 }
-/* flower instagram des css End here  */
+/* flower instagram  css End here  */
+
+
+/* flower deals  css start here  */
+.deals{
+    background-image: url("./Flower\ Asset/Rectangle 9.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin-left: 8rem;
+    margin-right: 7rem;
+}
+
+.deals-title{
+    text-align: center;
+    padding: 5rem;
+}
+.deals-title h2{
+    font-size: 30px;
+    color: #272727;
+    padding: 5px;
+}
+.deals-title p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    padding: 5px;
+}
+
+.deals-body{
+    text-align: center;
+    margin-top: -4rem;
+    margin-bottom: 1rem;
+    
+}
+
+.deals-input{
+    font-size: 15px;
+    padding: 10px;
+    width: 500px;
+    margin-right: 4px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 4rem;
+}
+/* flower deals  css End here  */
+
+
+/* footer  css start here  */
+.flower-footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3rem;
+}
+
+.footer-h-one{
+    color: #E55473;
+    font-size: 30px;
+}
+.footer-h-one{
+    font-size: 30px;
+}
+.footer-p-one{
+    margin-left: 18rem;
+    margin-right: 18rem;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 15px;
+}
+
+.footer-p-two{
+    margin-left: 18rem;
+    margin-right: 18rem;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 14px;
+}
+/* footer  css End here  */
+
+
